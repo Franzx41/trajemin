@@ -68,14 +68,14 @@ public class Main {
 	        public void actionPerformed(ActionEvent e) {
 	            if (correntePolig == null) {
 	            	correntePolig = new Poligono();
-	            	addObstBtn.setText("+ Salvar   ");
+	            	addObstBtn.setText("  Salvar   ");
 	            	addObstBtn.setBackground(Color.MAGENTA);
 	            	
 	            } else {
 	            	// Add polígono
 	            	float fatorX = 1, fatorY = 1;
 	            	try {
-	            		int raio = Integer.valueOf(tfRaioRobo.getText().toString().trim());
+	            		float raio = Float.valueOf(tfRaioRobo.getText().toString().trim());
 	            		float hw = correntePolig.getMeiaLarguraX();
 	            		float hh = correntePolig.getMeiaAlturaY();
 	            		fatorX = (hw + raio) / hw;
