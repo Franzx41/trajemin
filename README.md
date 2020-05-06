@@ -5,12 +5,12 @@
 ![Trajemin](https://raw.githubusercontent.com/Franzx41/trajemin/master/img/trajemin_img.png)
 
 # Descrição
-Trajemin é um planejador offline de trajetória miníma para robôs baseado em grafo de visibilidade. Ele dispõe de uma interface gráfica capaz de: 
+Trajemin é um planejador offline de trajetória miníma para robôs moveis baseado em grafo de visibilidade. Ele dispõe de uma interface gráfica capaz de: 
 - Adicionar pontos de origem e destino por cliques no espaço de configuração virtual;
 - Adicionar obstáculos poligononais côncavos ou convexos por cliques, atribuindo seus pontos no espaço de configuração virtual;
 - Configurar o raio do robô considerando que este esteja inscrito em uma circuferência que delimite suas dimensões;
-- Visualizar todos as possíveis trajetórias;
-- Buscar trajetória mínimo por [algoritmo A*](https://en.wikipedia.org/wiki/A*_search_algorithm);
+- Visualizar todas as possíveis trajetórias;
+- Buscar trajetória mínima por [algoritmo A*](https://en.wikipedia.org/wiki/A*_search_algorithm);
 
 ### Sumário
 
