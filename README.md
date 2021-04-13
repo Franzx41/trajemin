@@ -1,11 +1,11 @@
-# Trajemin - Planejador de Trajetória Miníma para Robôs 
+# Trajemin - Planejador de Trajetória Miníma para Robôs Móveis
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 ![Trajemin](https://raw.githubusercontent.com/Franzx41/trajemin/master/img/trajemin_img.png)
 
 # Descrição
-Trajemin é um planejador offline de trajetória miníma para robôs moveis baseado em grafo de visibilidade. Ele dispõe de uma interface gráfica capaz de: 
+Trajemin é um planejador offline de trajetória miníma para robôs móveis baseado em grafo de visibilidade. Ele dispõe de uma interface gráfica capaz de: 
 - Adicionar pontos de origem e destino por cliques no espaço de configuração virtual;
 - Adicionar obstáculos poligononais côncavos ou convexos por cliques, atribuindo seus pontos no espaço de configuração virtual;
 - Configurar o raio do robô considerando que este esteja inscrito em uma circuferência que delimite suas dimensões;
